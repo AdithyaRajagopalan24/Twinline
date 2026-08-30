@@ -3,7 +3,17 @@
 ## Team InnovAstra
 We are Team InnovAstra from IIT Madras. 
 
-Harish, a Mechanical Engineering undergraduate at IIT Madras with a strong interest in technology, programming, and solving real-world problems. I enjoy building projects with Python, exploring engineering and manufacturing systems, and continuously learning new technologies. Beyond academics, I enjoy solving coding problems and working on hands-on projects. Fun fact: I enjoy switching between designing mechanical systems and debugging Python code—which are surprisingly similar forms of suffering.
+I’m Adithya, a pre-final year Mechanical Engineering student at IIT Madras, exploring the intersection of engineering, AI, and technology. I’ve worked on projects spanning agentic AI, digital twins, simulation, and embedded systems, with hands-on hackathon experience building AI-powered applications. I’m here to build, learn fast, and hopefully turn a crazy idea into something that actually works. Besides academics, I'm an avid keyboard and guitar player.
+
+I'm Harish Kumar, a Mechanical Engineering undergraduate at IIT Madras with a strong interest in technology, programming, and solving real-world problems. I enjoy building projects with Python, exploring engineering and manufacturing systems, and continuously learning new technologies. Beyond academics, I enjoy solving coding problems and working on hands-on projects. Fun fact: I enjoy switching between designing mechanical systems and debugging Python code—which are surprisingly similar forms of suffering.
+
+## File Structure 
+
+
+
+## Public Link
+
+https://twinline-dashboard-521007461820.asia-south1.run.app/
 
 ## Architecture
 Synthetic Data Generator -> FastAPI Digital Twin -> real station topology (NetworkX graph built from station_master.csv) + PostgreSQL/Cloud SQL history -> Anomaly Detection + Bottleneck Prediction -> Streamlit Live Line Dashboard + Prediction Cockpit.
