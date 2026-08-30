@@ -7,9 +7,25 @@ I’m Adithya, a pre-final year Mechanical Engineering student at IIT Madras, ex
 
 I'm Harish Kumar, a Mechanical Engineering undergraduate at IIT Madras with a strong interest in technology, programming, and solving real-world problems. I enjoy building projects with Python, exploring engineering and manufacturing systems, and continuously learning new technologies. Beyond academics, I enjoy solving coding problems and working on hands-on projects. Fun fact: I enjoy switching between designing mechanical systems and debugging Python code—which are surprisingly similar forms of suffering.
 
-## File Structure 
+## Project Structure 
 
+| Folder | Purpose | Key Contents |
+|---|---|---|
+| **`backend/`** | Core backend and Digital Twin logic | FastAPI APIs, Digital Twin state management, AI modules, database connectivity |
+| **`dashboard/`** | Factory monitoring and visualization | Streamlit dashboard, live metrics, anomaly alerts, bottleneck predictions |
+| **`data/`** | Factory simulation and test data | Normal-operation data, anomaly/failure scenarios, synthetic datasets |
+| **`docs/`** | Project documentation | Deployment guides, configuration details, technical documentation |
+| **`scripts/`** | Data generation and simulation utilities | CSV generation, event replay, data publishing scripts |
+| **`videos/`** | Video Demos | Round 1 and Round 2 video submissions |
 
+### Root Files
+
+| File | Purpose |
+|---|---|
+| **`docker-compose.yml`** | Sets up the local development environment and supporting services |
+| **`sampleCases.txt`** | Sample factory scenarios used for testing and demonstration |
+| **`Roadmap.png`** | Project development roadmap |
+| **`README.md`** | Project overview, architecture, setup, and usage instructions |
 
 ## Public Link
 
