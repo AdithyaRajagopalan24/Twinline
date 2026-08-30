@@ -1,0 +1,2 @@
+timestamp_start,timestamp_end,station_id,duration_seconds,reason
+2026-08-26 13:00:00+00:00,2026-08-26 14:47:06+00:00,S05,6426.0,SIMULATED_STATION_DOWNTIME

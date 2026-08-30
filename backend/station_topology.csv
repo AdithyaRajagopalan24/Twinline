@@ -1,0 +1,13 @@
+station_id,station_name,station_sequence,upstream_station,downstream_station,takt_time,standard_cycle_time,station_capacity
+S01,Body Frame,1,,S02,60.0,58.1,20
+S02,Underbody,2,S01,S03,60.0,56.76,20
+S03,Front Axle,3,S02,S04,60.0,58.43,20
+S04,Rear Axle,4,S03,S05,60.0,57.79,20
+S05,Powertrain,5,S04,S06,60.0,55.38,20
+S06,Cooling System,6,S05,S07,60.0,58.9,20
+S07,Electrical,7,S06,S08,60.0,58.04,20
+S08,Interior,8,S07,S09,60.0,58.14,20
+S09,Glass,9,S08,S10,60.0,55.51,20
+S10,Wheel & Brake,10,S09,S11,60.0,56.8,20
+S11,Final Assembly,11,S10,S12,60.0,56.48,20
+S12,End of Line,12,S11,,60.0,58.71,20

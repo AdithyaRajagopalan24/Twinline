@@ -1,0 +1,46 @@
+for st in ST-1 ST-2 ST-3 ST-4; do
+  curl -X 'POST' \
+    'https://twinline-backend-521007461820.asia-south1.run.app/ingest' \
+    -H 'Content-Type: application/json' \
+    -d "{
+      \"station_id\": \"$st\",
+      \"cycle_time\": 42.0,
+      \"status\": \"OPERATIONAL\",
+      \"timestamp_utc\": \"$(date -u +"%Y-%m-%dT%H:%M:%SZ")\"
+    }"
+done
+
+
+
+
+
+curl -X 'POST' \
+  'https://twinline-backend-521007461820.asia-south1.run.app/ingest' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "station_id": "ST-3",
+    "cycle_time": 98.5,
+    "status": "DEGRADED",
+    "timestamp_utc": "2026-08-30T11:19:00Z"
+  }'
+
+
+
+
+
+
+  curl -X 'POST' \
+  'https://twinline-backend-521007461820.asia-south1.run.app/ingest' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "station_id": "ST-3",
+  "cycle_time": 112.5,
+  "status": "DEGRADED",
+  "timestamp_utc": "2026-08-30T11:21:00Z"
+}'
+
+
+
+
+
+./scripts/deploy_gcp_cloudrun.sh twinline-507104 twinline-507104:asia-south1:twinline-db

@@ -1,0 +1,5 @@
+scenario,name,station,effect
+A,Cycle-time drift,S05,Cycle time gradually rises above takt
+B,Station downtime,S05,Station enters FAULT; utilization becomes zero
+C,WIP buildup,S05/upstream,WIP grows as processing capacity falls behind takt
+D,Sensor anomaly,S08,Vibration and temperature rise abnormally
