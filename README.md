@@ -1,5 +1,10 @@
 # TwinLine AI 
 
+## Team InnovAstra
+We are Team InnovAstra from IIT Madras. 
+
+Harish, a Mechanical Engineering undergraduate at IIT Madras with a strong interest in technology, programming, and solving real-world problems. I enjoy building projects with Python, exploring engineering and manufacturing systems, and continuously learning new technologies. Beyond academics, I enjoy solving coding problems and working on hands-on projects. Fun fact: I enjoy switching between designing mechanical systems and debugging Python code—which are surprisingly similar forms of suffering.
+
 ## Architecture
 Synthetic Data Generator -> FastAPI Digital Twin -> real station topology (NetworkX graph built from station_master.csv) + PostgreSQL/Cloud SQL history -> Anomaly Detection + Bottleneck Prediction -> Streamlit Live Line Dashboard + Prediction Cockpit.
 
